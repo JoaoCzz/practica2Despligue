@@ -2,25 +2,14 @@
   "name": "practica2despligue",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/JoaoCzz/practica2Despligue.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "type": "commonjs",
-  "bugs": {
-    "url": "https://github.com/JoaoCzz/practica2Despligue/issues"
-  },
-  "homepage": "https://github.com/JoaoCzz/practica2Despligue#readme",
+  "license": "ISC",
   "dependencies": {
-    "body-parser": "^2.2.2",
-    "express": "^5.2.1",
+    "express": "^4.19.2",
     "sqlite3": "^5.1.7"
   }
 }
